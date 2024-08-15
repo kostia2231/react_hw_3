@@ -1,0 +1,28 @@
+.appRatingWrapper {
+  padding: 1rem;
+  width: 50vh;
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(208, 208, 208);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  border-radius: 2rem;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: rgb(252, 252, 199);
+  transition: 0.5s ease;
+}
